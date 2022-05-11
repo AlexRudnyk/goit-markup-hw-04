@@ -369,6 +369,11 @@ a {
   border-radius: 4px;
 }
 
+.clients-item:hover,
+.clients-item:focus {
+  border-color: var(--accent-color);
+}
+
 .clients-item:not(:last-child) {
   margin-right: 30px;
 }
